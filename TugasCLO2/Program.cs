@@ -1,12 +1,14 @@
-﻿using TugasCLO2Libraries;
+using TugasCLO2Libraries;
 
-// Info stock makanan yang tersedia
+// DATA MENU MAKANAN
 
 MenuMakanan menu1 = new MenuMakanan();
 
 menu1.NamaMakanan = "Nasi Goreng";
 menu1.Harga = 15000;
 menu1.Stok = 10;
+
+// INPUT DATA PESANAN
 
 Pesanan pesanan1 = new Pesanan();
 
@@ -18,7 +20,7 @@ pesanan1.NamaPelanggan = Console.ReadLine();
 Console.Write("Masukkan Jumlah Pesanan : ");
 string inputJumlah = Console.ReadLine();
 
-// [Defensive Programming]
+// Defensive programming + DbC
 // Nama pelanggan tidak boleh kosong
 
 if (string.IsNullOrWhiteSpace(pesanan1.NamaPelanggan))
@@ -26,8 +28,8 @@ if (string.IsNullOrWhiteSpace(pesanan1.NamaPelanggan))
     throw new ArgumentException("Nama pelanggan tidak boleh kosong");
 }
 
-// [Defensive Programming]
-// Input jumlah harus angka
+// Defensive programming
+// Jumlah pesanan harus berupa angka
 
 if (!int.TryParse(inputJumlah, out int jumlahPesanan))
 {
@@ -36,6 +38,7 @@ if (!int.TryParse(inputJumlah, out int jumlahPesanan))
 
 pesanan1.JumlahPesanan = jumlahPesanan;
 
+// Defensive programming
 // Jumlah pesanan harus lebih dari 0
 
 if (pesanan1.JumlahPesanan <= 0)
@@ -43,7 +46,7 @@ if (pesanan1.JumlahPesanan <= 0)
     throw new ArgumentException("Jumlah pesanan harus lebih dari 0");
 }
 
-// [Defensive Programming]
+// Defensive programming
 // Jumlah pesanan tidak boleh melebihi stok
 
 if (pesanan1.JumlahPesanan > menu1.Stok)
@@ -65,10 +68,43 @@ pesanan1.TotalHarga =
 pesanan1.Status = StatusPesanan.MenungguPembayaran;
 
 Console.WriteLine();
+Console.WriteLine("Status Pesanan : " + pesanan1.Status);
+
+Console.WriteLine();
+Console.WriteLine("Pilih Aksi:");
+Console.WriteLine("1. Bayar Pesanan");
+Console.WriteLine("2. Batalkan Pesanan");
+
+Console.Write("Masukkan pilihan : ");
+string pilihan = Console.ReadLine();
+
+
+if (pilihan == "1")
+{
+    pesanan1.Status = StatusPesanan.Dibayar;
+
+    Console.WriteLine("Pesanan berhasil dibayar");
+
+    pesanan1.Status = StatusPesanan.Selesai;
+}
+
+else if (pilihan == "2")
+{
+    pesanan1.Status = StatusPesanan.Dibatalkan;
+
+    Console.WriteLine("Pesanan dibatalkan");
+}
+
+else
+{
+    Console.WriteLine("Pilihan tidak valid");
+}
+
+Console.WriteLine();
 Console.WriteLine("=== DATA PESANAN ===");
 
 Console.WriteLine("Nama Pelanggan : " + pesanan1.NamaPelanggan);
 Console.WriteLine("Menu Makanan   : " + pesanan1.Menu.NamaMakanan);
 Console.WriteLine("Jumlah Pesanan : " + pesanan1.JumlahPesanan);
 Console.WriteLine("Total Harga    : " + pesanan1.TotalHarga);
-Console.WriteLine("Status Pesanan : " + pesanan1.Status);
+Console.WriteLine("Status Akhir   : " + pesanan1.Status);
