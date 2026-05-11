@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TP KPL SEMS 4\\TubesKPL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\sevices\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\sevices\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\tubeskpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\tubeskpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\tubeskpl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\tubeskpl.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|d:\\tp kpl sems 4\\tubeskpl\\tubeskpl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E2BB9F0-7C2A-4E26-969C-2223F5408C44}|TubesKPL\\TubesKPL.csproj|solutionrelative:tubeskpl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TubesKPL\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TubesKPL\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:22:49.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Sevices\\AuthServices.cs",
+              "RelativeDocumentMoniker": "TubesKPL\\Sevices\\AuthServices.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Sevices\\AuthServices.cs",
+              "RelativeToolTip": "TubesKPL\\Sevices\\AuthServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:22:20.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TubesKPL\\Models\\User.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Models\\User.cs",
+              "RelativeToolTip": "TubesKPL\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:19:32.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TubesKPL\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TubesKPL\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T11:04:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\appsettings.json",
+              "RelativeDocumentMoniker": "TubesKPL\\appsettings.json",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\appsettings.json",
+              "RelativeToolTip": "TubesKPL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T11:04:07.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TubesKPL",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
+              "RelativeDocumentMoniker": "TubesKPL\\TubesKPL.csproj",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
+              "RelativeToolTip": "TubesKPL\\TubesKPL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T11:03:31.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Program.cs",
+              "RelativeDocumentMoniker": "TubesKPL\\Program.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\Program.cs",
+              "RelativeToolTip": "TubesKPL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:03:49.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TubesKPL",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
+              "RelativeDocumentMoniker": "TubesKPL\\TubesKPL.csproj",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL\\TubesKPL\\TubesKPL.csproj",
+              "RelativeToolTip": "TubesKPL\\TubesKPL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T11:03:12.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
