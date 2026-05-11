@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\KPL CLO-2\\TugasCLO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDAA3DFF-76BB-4323-B94A-5890872BC898}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDAA3DFF-76BB-4323-B94A-5890872BC898}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\tugasclo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\tugasclo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|solutionrelative:tugasclo2-libary\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\statuspesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|solutionrelative:tugasclo2-libary\\statuspesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2-Libary.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2-Libary.csproj|solutionrelative:tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusPesanan.cs",
+              "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\StatusPesanan.cs",
+              "RelativeDocumentMoniker": "TugasCLO2-Libary\\StatusPesanan.cs",
+              "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\StatusPesanan.cs",
+              "RelativeToolTip": "TugasCLO2-Libary\\StatusPesanan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:36:49.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pesanan.cs",
+              "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\Pesanan.cs",
+              "RelativeDocumentMoniker": "TugasCLO2-Libary\\Pesanan.cs",
+              "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\Pesanan.cs",
+              "RelativeToolTip": "TugasCLO2-Libary\\Pesanan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:36:44.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuMakanan.cs",
+              "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\MenuMakanan.cs",
+              "RelativeDocumentMoniker": "TugasCLO2-Libary\\MenuMakanan.cs",
+              "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\MenuMakanan.cs",
+              "RelativeToolTip": "TugasCLO2-Libary\\MenuMakanan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T10:35:16.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TugasCLO2",
+              "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
+              "RelativeDocumentMoniker": "TugasCLO2\\TugasCLO2.csproj",
+              "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
+              "RelativeToolTip": "TugasCLO2\\TugasCLO2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T10:31:55.544Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "TugasCLO2\\Program.cs",
               "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\Program.cs",
               "RelativeToolTip": "TugasCLO2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T10:09:04.906Z",
               "EditorCaption": ""

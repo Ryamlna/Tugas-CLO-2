@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TugasCLO2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6abf930d46d7b35181de74f2ef0a44695169e8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TugasCLO2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TugasCLO2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

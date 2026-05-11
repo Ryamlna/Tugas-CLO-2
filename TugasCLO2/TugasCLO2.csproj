@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TugasCLO2-Libary\TugasCLO2Libraries.csproj" />
+  </ItemGroup>
+
 </Project>
