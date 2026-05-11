@@ -1,0 +1,15 @@
+C:\Users\Rakendra\source\repos\Tubes\Tubes\bin\Debug\net10.0\Tubes.exe
+C:\Users\Rakendra\source\repos\Tubes\Tubes\bin\Debug\net10.0\Tubes.deps.json
+C:\Users\Rakendra\source\repos\Tubes\Tubes\bin\Debug\net10.0\Tubes.runtimeconfig.json
+C:\Users\Rakendra\source\repos\Tubes\Tubes\bin\Debug\net10.0\Tubes.dll
+C:\Users\Rakendra\source\repos\Tubes\Tubes\bin\Debug\net10.0\Tubes.pdb
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.AssemblyInfoInputs.cache
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.AssemblyInfo.cs
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.csproj.CoreCompileInputs.cache
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.sourcelink.json
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.dll
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\refint\Tubes.dll
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.pdb
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\Tubes.genruntimeconfig.cache
+C:\Users\Rakendra\source\repos\Tubes\Tubes\obj\Debug\net10.0\ref\Tubes.dll
