@@ -36,7 +36,6 @@ if (!int.TryParse(inputJumlah, out int jumlahPesanan))
 
 pesanan1.JumlahPesanan = jumlahPesanan;
 
-// [Defensive Programming]
 // Jumlah pesanan harus lebih dari 0
 
 if (pesanan1.JumlahPesanan <= 0)

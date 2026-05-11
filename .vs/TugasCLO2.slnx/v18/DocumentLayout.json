@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\KPL CLO-2\\TugasCLO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\tugasclo2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\tugasclo2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\tugasclo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\tugasclo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCEC5C-5846-7350-E2EC-EF9D5108305E}|TugasCLO2\\TugasCLO2.csproj|solutionrelative:tugasclo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\pesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|solutionrelative:tugasclo2-libary\\statuspesanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2-Libary.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2-Libary.csproj|solutionrelative:tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|d:\\kpl clo-2\\tugasclo2\\tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5948DA-19AD-44CB-A4C0-FE04574F891C}|TugasCLO2-Libary\\TugasCLO2Libraries.csproj|solutionrelative:tugasclo2-libary\\menumakanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TugasCLO2",
+              "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
+              "RelativeDocumentMoniker": "TugasCLO2\\TugasCLO2.csproj",
+              "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
+              "RelativeToolTip": "TugasCLO2\\TugasCLO2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T11:15:43.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StatusPesanan.cs",
               "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\StatusPesanan.cs",
               "RelativeDocumentMoniker": "TugasCLO2-Libary\\StatusPesanan.cs",
@@ -42,12 +58,11 @@
               "RelativeToolTip": "TugasCLO2-Libary\\StatusPesanan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T10:36:49.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T10:36:49.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Pesanan.cs",
               "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\Pesanan.cs",
               "RelativeDocumentMoniker": "TugasCLO2-Libary\\Pesanan.cs",
@@ -55,12 +70,11 @@
               "RelativeToolTip": "TugasCLO2-Libary\\Pesanan.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T10:36:44.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T10:36:44.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MenuMakanan.cs",
               "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2-Libary\\MenuMakanan.cs",
               "RelativeDocumentMoniker": "TugasCLO2-Libary\\MenuMakanan.cs",
@@ -68,13 +82,12 @@
               "RelativeToolTip": "TugasCLO2-Libary\\MenuMakanan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T10:35:16.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T10:35:16.852Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TugasCLO2",
+              "Title": "TugasCLO2.csproj",
               "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
               "RelativeDocumentMoniker": "TugasCLO2\\TugasCLO2.csproj",
               "ToolTip": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\TugasCLO2.csproj",
@@ -86,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\KPL CLO-2\\TugasCLO2\\TugasCLO2\\Program.cs",
               "RelativeDocumentMoniker": "TugasCLO2\\Program.cs",
