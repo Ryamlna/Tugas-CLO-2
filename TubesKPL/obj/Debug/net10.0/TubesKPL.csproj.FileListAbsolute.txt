@@ -33,3 +33,4 @@ D:\TP KPL SEMS 4\TubesKPL\TubesKPL\obj\Debug\net10.0\refint\TubesKPL.dll
 D:\TP KPL SEMS 4\TubesKPL\TubesKPL\obj\Debug\net10.0\TubesKPL.pdb
 D:\TP KPL SEMS 4\TubesKPL\TubesKPL\obj\Debug\net10.0\TubesKPL.genruntimeconfig.cache
 D:\TP KPL SEMS 4\TubesKPL\TubesKPL\obj\Debug\net10.0\ref\TubesKPL.dll
+D:\TP KPL SEMS 4\TubesKPL\TubesKPL\obj\Debug\net10.0\TubesKPL.sourcelink.json

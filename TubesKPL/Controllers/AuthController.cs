@@ -42,5 +42,13 @@ namespace TubesKPL.Controllers
 
             return Unauthorized(result);
         }
+
+        [HttpGet("users")]
+        public IActionResult GetUsers()
+        {
+            var users = _authService.GetAllUsers();
+
+            return Ok(users);
+        }
     }
 }

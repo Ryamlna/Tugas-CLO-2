@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="TubesKPL/TubesKPL.csproj" />
+  <Project Path="UnitTestingAPI/UnitTestingAPI.csproj" Id="7f86f4b3-720a-41ec-be4a-c12f86b28fc7" />
 </Solution>

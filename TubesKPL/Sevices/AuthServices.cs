@@ -1,4 +1,5 @@
-﻿using TubesKPL.Models;
+﻿using System.Diagnostics;
+using TubesKPL.Models;
 
 namespace TubesKPL.Services
 {
@@ -10,6 +11,7 @@ namespace TubesKPL.Services
         // REGISTER
         public string Register(User user)
         {
+            Stopwatch stopwatch = Stopwatch.StartNew();
             // Defensive Programming
             if (string.IsNullOrWhiteSpace(user.Username))
             {
@@ -42,6 +44,9 @@ namespace TubesKPL.Services
                 return "Email sudah digunakan";
             }
 
+            stopwatch.Stop();
+            Console.WriteLine($"Waktu Register: {stopwatch.ElapsedMilliseconds} ms");
+
             user.Id = users.Count + 1;
 
             users.Add(user);
@@ -52,6 +57,10 @@ namespace TubesKPL.Services
         // LOGIN
         public string Login(User loginUser)
         {
+
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+
             if (string.IsNullOrWhiteSpace(loginUser.Email))
             {
                 return "Email wajib diisi";
@@ -72,8 +81,20 @@ namespace TubesKPL.Services
             {
                 return "Email atau password salah";
             }
+            stopwatch.Stop();
+            Console.WriteLine($"Waktu login: {stopwatch.ElapsedMilliseconds} ms");
 
             return "Login berhasil";
+        }
+
+        public object GetAllUsers()
+        {
+            return users.Select(u => new
+            {
+                u.Id,
+                u.Username,
+                u.Email
+            });
         }
     }
 }
