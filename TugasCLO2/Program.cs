@@ -1,10 +1,14 @@
 using TugasCLO2Libraries;
 
+// DATA MENU MAKANAN
+
 MenuMakanan menu1 = new MenuMakanan();
 
 menu1.NamaMakanan = "Nasi Goreng";
 menu1.Harga = 15000;
 menu1.Stok = 10;
+
+// INPUT DATA PESANAN
 
 Pesanan pesanan1 = new Pesanan();
 
@@ -16,11 +20,17 @@ pesanan1.NamaPelanggan = Console.ReadLine();
 Console.Write("Masukkan Jumlah Pesanan : ");
 string inputJumlah = Console.ReadLine();
 
+// Defensive programming + DbC
+
+// DbC
 if (string.IsNullOrWhiteSpace(pesanan1.NamaPelanggan))
 {
     throw new ArgumentException("Nama pelanggan tidak boleh kosong");
 }
 
+// Defensive programming
+
+// Defensive Programming
 if (!int.TryParse(inputJumlah, out int jumlahPesanan))
 {
     throw new ArgumentException("Jumlah pesanan harus berupa angka");
@@ -28,22 +38,32 @@ if (!int.TryParse(inputJumlah, out int jumlahPesanan))
 
 pesanan1.JumlahPesanan = jumlahPesanan;
 
+// Defensive programming
+
+// DbC
 if (pesanan1.JumlahPesanan <= 0)
 {
     throw new ArgumentException("Jumlah pesanan harus lebih dari 0");
 }
 
+// Defensive programming
+
+// Defensive Programming
 if (pesanan1.JumlahPesanan > menu1.Stok)
 {
     throw new InvalidOperationException("Stok makanan tidak cukup");
 }
 
+// PROSES PEMESANAN
+
 pesanan1.Menu = menu1;
 
 pesanan1.TotalHarga =
-pesanan1.Menu.Harga * pesanan1.JumlahPesanan;
+    pesanan1.Menu.Harga * pesanan1.JumlahPesanan;
 
+// AUTOMATA
 
+// Automata
 pesanan1.Status = StatusPesanan.MenungguPembayaran;
 
 Console.WriteLine();
@@ -79,9 +99,9 @@ else
     Console.WriteLine("Pilihan tidak valid");
 }
 
+
 Console.WriteLine();
 Console.WriteLine("=== DATA PESANAN ===");
-
 Console.WriteLine("Nama Pelanggan : " + pesanan1.NamaPelanggan);
 Console.WriteLine("Menu Makanan   : " + pesanan1.Menu.NamaMakanan);
 Console.WriteLine("Jumlah Pesanan : " + pesanan1.JumlahPesanan);

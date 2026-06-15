@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="GUI/GUI.csproj" Id="5596ff5f-ceba-463a-bfdd-a4c06ea85c0d" />
   <Project Path="TugasCLO2-Libary/TugasCLO2Libraries.csproj" Id="8f5948da-19ad-44cb-a4c0-fe04574f891c" />
+  <Project Path="TugasCLO2.Tests/TugasCLO2.Tests.csproj" Id="8504bf66-a84d-4066-b30b-ca7d45e6e349" />
   <Project Path="TugasCLO2/TugasCLO2.csproj" />
 </Solution>
