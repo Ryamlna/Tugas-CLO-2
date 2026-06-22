@@ -1,0 +1,6 @@
+@TubesKPL_HostAddress = http://localhost:5288
+
+GET {{TubesKPL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
