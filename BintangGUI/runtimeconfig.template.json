@@ -1,0 +1,9 @@
+{
+  "configProperties": {
+    "System.GC.Server": false,
+    "System.GC.Concurrent": true,
+    "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
+    "System.Globalization.UseNls": false,
+    "System.Globalization.Invariant": false
+  }
+}
