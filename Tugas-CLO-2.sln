@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tugas-CLO-2", "Tugas-CLO-2\Tugas-CLO-2.csproj", "{09F0BAC3-4ADB-4F2F-9134-870C121E37E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BintangGUI", "BintangGUI\BintangGUI.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09F0BAC3-4ADB-4F2F-9134-870C121E37E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09F0BAC3-4ADB-4F2F-9134-870C121E37E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09F0BAC3-4ADB-4F2F-9134-870C121E37E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09F0BAC3-4ADB-4F2F-9134-870C121E37E8}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {66E6B9F9-7B24-40F0-A063-8E798C56B29F}
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
