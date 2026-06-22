@@ -1,1 +1,8 @@
-Kelompok 8 
+Fitur Login & Register
+Folder TubesKPL (API untuk halaman Login & Register)
+Folder TubesKPL2 (GUI untuk halaman Login & Register
+
+Endpoint API Login
+Untuk Register Menggunakan method POST https://localhost:7256/api/auth/register
+Untuk Login Menggunakan method POST https://localhost:7256/api/auth/login
+Untuk Melihat List User yang Dibuat GET https://localhost:7256/api/auth/users
