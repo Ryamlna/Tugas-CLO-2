@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TubesKPL/TubesKPL/TubesKPL.csproj" />
+  <Project Path="TubesKPL2/TubesKPL2.csproj" />
+</Solution>

@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TP KPL SEMS 4\\TubesKPL2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|d:\\tp kpl sems 4\\tubeskpl2\\tubeskpl2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|d:\\tp kpl sems 4\\tubeskpl2\\tubeskpl2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|D:\\TP KPL SEMS 4\\TubesKPL2\\tubeskpl2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|d:\\tp kpl sems 4\\tubeskpl2\\tubeskpl2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|D:\\TP KPL SEMS 4\\TubesKPL2\\tubeskpl2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|d:\\tp kpl sems 4\\tubeskpl2\\tubeskpl2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|D:\\TP KPL SEMS 4\\TubesKPL2\\tubeskpl2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79FAB0AA-9B34-C2D1-DED2-6EC1182E7ED5}|TubesKPL2\\TubesKPL2.csproj|solutionrelative:tubeskpl2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Program.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Program.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Program.cs",
+              "RelativeToolTip": "TubesKPL2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:55:42.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Home.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Home.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Home.cs",
+              "RelativeToolTip": "TubesKPL2\\Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:31:54.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Home.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Home.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Home.cs [Design]",
+              "RelativeToolTip": "TubesKPL2\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:30:42.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Login.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Login.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Login.cs [Design]",
+              "RelativeToolTip": "TubesKPL2\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:26:47.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Login.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Login.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Login.cs",
+              "RelativeToolTip": "TubesKPL2\\Login.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:31:45.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Register.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Register.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Register.cs [Design]",
+              "RelativeToolTip": "TubesKPL2\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:26:36.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Register.cs",
+              "RelativeDocumentMoniker": "TubesKPL2\\Register.cs",
+              "ToolTip": "D:\\TP KPL SEMS 4\\TubesKPL2\\TubesKPL2\\Register.cs",
+              "RelativeToolTip": "TubesKPL2\\Register.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T04:27:21.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
