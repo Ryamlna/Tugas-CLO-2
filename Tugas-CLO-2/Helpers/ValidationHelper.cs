@@ -1,4 +1,4 @@
-﻿namespace Tugas_CLO_2.Helpers
+namespace BintangGUI.Helpers
 {
     public static class ValidationHelper
     {
@@ -6,12 +6,12 @@
         {
             if (latitude < -90 || latitude > 90)
             {
-                throw new ArgumentException("Latitude tidak valid");
+                throw new ArgumentException("Latitude tidak valid. Harus antara -90 dan 90.");
             }
 
             if (longitude < -180 || longitude > 180)
             {
-                throw new ArgumentException("Longitude tidak valid");
+                throw new ArgumentException("Longitude tidak valid. Harus antara -180 dan 180.");
             }
         }
     }
