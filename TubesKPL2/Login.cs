@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using TUBES_GUI;
 
 namespace TubesKPL2
 {
@@ -68,8 +69,8 @@ namespace TubesKPL2
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Home home = new Home();
-                    home.Show();
+                    FormMenu menuUtama = new FormMenu();
+                    menuUtama.Show();
                     this.Hide();
                 }
             }
