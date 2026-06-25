@@ -15,6 +15,8 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            cmbMenu.Items.Clear();
+
             menu1 = new MenuMakanan
             {
                 NamaMakanan = "Nasi Goreng",
@@ -22,10 +24,11 @@ namespace GUI
                 Stok = 10
             };
 
-            cmbMenu.Items.Add(menu1.NamaMakanan);
-            cmbMenu.SelectedIndex = 0;
+            cmbMenu.Items.Add("Nasi Goreng");
+            cmbMenu.Items.Add("Mie Goreng");
+            cmbMenu.Items.Add("Ayam Geprek");
 
-            lblStatus.Text = "-";
+            cmbMenu.SelectedIndex = 0;
         }
 
         private void btnPesan_Click(object sender, EventArgs e)
@@ -160,7 +163,45 @@ namespace GUI
 
         private void cmbMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cmbMenu.Text == "Nasi Goreng")
+            {
+                menu1 = new MenuMakanan
+                {
+                    NamaMakanan = "Nasi Goreng",
+                    Harga = 15000,
+                    Stok = 10
+                };
 
+                lblMenuTersedia.Text = "Nasi Goreng";
+                lblHargaMenu.Text = "Rp 15000";
+                lblStok.Text = "10";
+            }
+            else if (cmbMenu.Text == "Mie Goreng")
+            {
+                menu1 = new MenuMakanan
+                {
+                    NamaMakanan = "Mie Goreng",
+                    Harga = 12000,
+                    Stok = 8
+                };
+
+                lblMenuTersedia.Text = "Mie Goreng";
+                lblHargaMenu.Text = "Rp 12000";
+                lblStok.Text = "8";
+            }
+            else if (cmbMenu.Text == "Ayam Geprek")
+            {
+                menu1 = new MenuMakanan
+                {
+                    NamaMakanan = "Ayam Geprek",
+                    Harga = 18000,
+                    Stok = 5
+                };
+
+                lblMenuTersedia.Text = "Ayam Geprek";
+                lblHargaMenu.Text = "Rp 18000";
+                lblStok.Text = "5";
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -234,6 +275,95 @@ namespace GUI
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            if (!pesananAktif)
+            {
+                MessageBox.Show("Belum ada pesanan!");
+                return;
+            }
+
+            if (pesanan1.Status == StatusPesanan.Dibayar)
+            {
+                MessageBox.Show("Pesanan sudah dibayar dan tidak bisa dibatalkan!");
+                return;
+            }
+
+            if (pesanan1.Status == StatusPesanan.Dibatalkan)
+            {
+                MessageBox.Show("Pesanan sudah dibatalkan!");
+                return;
+            }
+
+            pesanan1.Status = StatusPesanan.Dibatalkan;
+
+            lblStatus.Text = pesanan1.Status.ToString();
+
+            MessageBox.Show("Pesanan berhasil dibatalkan.");
+        }
+
+        private void btnBayar_Click_1(object sender, EventArgs e)
+        {
+            if (!pesananAktif)
+            {
+                MessageBox.Show("Buat pesanan terlebih dahulu!");
+                return;
+            }
+
+            if (pesanan1.Status == StatusPesanan.Dibatalkan)
+            {
+                MessageBox.Show("Pesanan sudah dibatalkan!");
+                return;
+            }
+
+            if (pesanan1.Status == StatusPesanan.Dibayar)
+            {
+                MessageBox.Show("Pesanan sudah dibayar!");
+                return;
+            }
+
+            pesanan1.Status = StatusPesanan.Dibayar;
+
+            lblStatus.Text = pesanan1.Status.ToString();
+
+            MessageBox.Show("Pembayaran berhasil.");
+        }
+
+        private void btnReset_Click_1(object sender, EventArgs e)
+        {
+            txtNamaPelanggan.Clear();
+
+            cmbMenu.SelectedIndex = 0;
+
+            numJumlahPesanan.Value = 1;
+
+            // Reset detail pesanan
+            lblNamaDetail.Text = "-";
+            lblMenuDetail.Text = "-";
+            lblHargaDetail.Text = "-";
+            lblJumlahDetail.Text = "-";
+            lblTotalDetail.Text = "-";
+
+            // Reset status pesanan
+            lblStatus.Text = "-";
+
+            // Hapus objek pesanan
+            pesanan1 = null;
+            pesananAktif = false;
+
+            MessageBox.Show("Pesanan berhasil direset.");
+        }
+
+        private void label4_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtbRiwayat_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -38,18 +38,26 @@
             txtNamaPelanggan = new TextBox();
             label1 = new Label();
             gbDetail = new GroupBox();
+            label10 = new Label();
+            label9 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
             lblTotalDetail = new Label();
             lblJumlahDetail = new Label();
             lblHargaDetail = new Label();
             lblMenuDetail = new Label();
             lblNamaDetail = new Label();
             gbStatus = new GroupBox();
-            rtbRiwayat = new RichTextBox();
+            label14 = new Label();
             lblStatus = new Label();
             gbInfoMenu = new GroupBox();
-            label6 = new Label();
-            label5 = new Label();
-            label4 = new Label();
+            label13 = new Label();
+            label12 = new Label();
+            label11 = new Label();
+            lblStok = new Label();
+            lblHargaMenu = new Label();
+            lblMenuTersedia = new Label();
             gbProses = new GroupBox();
             btnBatalkan = new Button();
             label7 = new Label();
@@ -103,6 +111,7 @@
             btnPesan.TabIndex = 3;
             btnPesan.Text = "Pesan Makanan";
             btnPesan.UseVisualStyleBackColor = false;
+            btnPesan.Click += btnPesan_Click;
             // 
             // numJumlahPesanan
             // 
@@ -131,6 +140,7 @@
             cmbMenu.TabIndex = 5;
             cmbMenu.Text = "Pilih Makanan";
             cmbMenu.SelectedIndexChanged += cmbMenu_SelectedIndexChanged;
+            cmbMenu.Click += Form1_Load;
             // 
             // label2
             // 
@@ -161,6 +171,11 @@
             // gbDetail
             // 
             gbDetail.BackColor = Color.SpringGreen;
+            gbDetail.Controls.Add(label10);
+            gbDetail.Controls.Add(label9);
+            gbDetail.Controls.Add(label6);
+            gbDetail.Controls.Add(label5);
+            gbDetail.Controls.Add(label4);
             gbDetail.Controls.Add(lblTotalDetail);
             gbDetail.Controls.Add(lblJumlahDetail);
             gbDetail.Controls.Add(lblHargaDetail);
@@ -173,58 +188,105 @@
             gbDetail.TabStop = false;
             gbDetail.Text = "2. Detail Pemesanan";
             // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(7, 282);
+            label10.Name = "label10";
+            label10.Size = new Size(110, 20);
+            label10.TabIndex = 16;
+            label10.Text = "Total Harga     :";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(7, 218);
+            label9.Name = "label9";
+            label9.Size = new Size(135, 20);
+            label9.TabIndex = 15;
+            label9.Text = "Jumlah Pesanan     :";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(7, 154);
+            label6.Name = "label6";
+            label6.Size = new Size(122, 20);
+            label6.TabIndex = 14;
+            label6.Text = "Harga Satuan     :\r\n";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(7, 95);
+            label5.Name = "label5";
+            label5.Size = new Size(217, 20);
+            label5.TabIndex = 13;
+            label5.Text = "Menu Makanan Yang Dipilih     :";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(7, 41);
+            label4.Name = "label4";
+            label4.Size = new Size(145, 20);
+            label4.TabIndex = 12;
+            label4.Text = "Nama Pelanggan     :";
+            label4.Click += label4_Click_2;
+            // 
             // lblTotalDetail
             // 
             lblTotalDetail.AutoSize = true;
-            lblTotalDetail.Location = new Point(6, 282);
+            lblTotalDetail.Font = new Font("Segoe UI", 13F);
+            lblTotalDetail.Location = new Point(134, 277);
             lblTotalDetail.Name = "lblTotalDetail";
-            lblTotalDetail.Size = new Size(110, 20);
+            lblTotalDetail.Size = new Size(22, 30);
             lblTotalDetail.TabIndex = 11;
-            lblTotalDetail.Text = "Total Harga     :";
+            lblTotalDetail.Text = "-";
             lblTotalDetail.Click += lblTotal_Click;
             // 
             // lblJumlahDetail
             // 
             lblJumlahDetail.AutoSize = true;
-            lblJumlahDetail.Location = new Point(6, 218);
+            lblJumlahDetail.Location = new Point(152, 218);
             lblJumlahDetail.Name = "lblJumlahDetail";
-            lblJumlahDetail.Size = new Size(135, 20);
+            lblJumlahDetail.Size = new Size(15, 20);
             lblJumlahDetail.TabIndex = 10;
-            lblJumlahDetail.Text = "Jumlah Pesanan     :";
+            lblJumlahDetail.Text = "-";
             // 
             // lblHargaDetail
             // 
             lblHargaDetail.AutoSize = true;
-            lblHargaDetail.Location = new Point(6, 154);
+            lblHargaDetail.Location = new Point(134, 154);
             lblHargaDetail.Name = "lblHargaDetail";
-            lblHargaDetail.Size = new Size(122, 20);
+            lblHargaDetail.Size = new Size(15, 20);
             lblHargaDetail.TabIndex = 9;
-            lblHargaDetail.Text = "Harga Satuan     :\r\n";
+            lblHargaDetail.Text = "-";
             lblHargaDetail.Click += lblHarga_Click;
             // 
             // lblMenuDetail
             // 
             lblMenuDetail.AutoSize = true;
-            lblMenuDetail.Location = new Point(6, 95);
+            lblMenuDetail.Location = new Point(235, 95);
             lblMenuDetail.Name = "lblMenuDetail";
-            lblMenuDetail.Size = new Size(217, 20);
+            lblMenuDetail.Size = new Size(15, 20);
             lblMenuDetail.TabIndex = 8;
-            lblMenuDetail.Text = "Menu Makanan Yang Dipilih     :";
+            lblMenuDetail.Text = "-";
             // 
             // lblNamaDetail
             // 
             lblNamaDetail.AutoSize = true;
-            lblNamaDetail.Location = new Point(6, 41);
+            lblNamaDetail.Location = new Point(161, 41);
             lblNamaDetail.Name = "lblNamaDetail";
-            lblNamaDetail.Size = new Size(145, 20);
+            lblNamaDetail.Size = new Size(15, 20);
             lblNamaDetail.TabIndex = 7;
-            lblNamaDetail.Text = "Nama Pelanggan     :";
+            lblNamaDetail.Text = "-";
             lblNamaDetail.Click += label4_Click;
             // 
             // gbStatus
             // 
             gbStatus.BackColor = Color.MediumPurple;
-            gbStatus.Controls.Add(rtbRiwayat);
+            gbStatus.Controls.Add(label14);
             gbStatus.Controls.Add(lblStatus);
             gbStatus.Location = new Point(1045, 115);
             gbStatus.Name = "gbStatus";
@@ -233,30 +295,35 @@
             gbStatus.TabStop = false;
             gbStatus.Text = "3. Status Pemesanan";
             // 
-            // rtbRiwayat
+            // label14
             // 
-            rtbRiwayat.Location = new Point(6, 75);
-            rtbRiwayat.Name = "rtbRiwayat";
-            rtbRiwayat.ReadOnly = true;
-            rtbRiwayat.Size = new Size(251, 40);
-            rtbRiwayat.TabIndex = 13;
-            rtbRiwayat.Text = "";
+            label14.AutoSize = true;
+            label14.Location = new Point(6, 41);
+            label14.Name = "label14";
+            label14.Size = new Size(102, 20);
+            label14.TabIndex = 14;
+            label14.Text = "Status Saat Ini";
             // 
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(6, 41);
+            lblStatus.Font = new Font("Segoe UI", 20F);
+            lblStatus.ForeColor = Color.Yellow;
+            lblStatus.Location = new Point(6, 82);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(102, 20);
+            lblStatus.Size = new Size(34, 46);
             lblStatus.TabIndex = 12;
-            lblStatus.Text = "Status Saat Ini";
+            lblStatus.Text = "-";
             // 
             // gbInfoMenu
             // 
             gbInfoMenu.BackColor = Color.MistyRose;
-            gbInfoMenu.Controls.Add(label6);
-            gbInfoMenu.Controls.Add(label5);
-            gbInfoMenu.Controls.Add(label4);
+            gbInfoMenu.Controls.Add(label13);
+            gbInfoMenu.Controls.Add(label12);
+            gbInfoMenu.Controls.Add(label11);
+            gbInfoMenu.Controls.Add(lblStok);
+            gbInfoMenu.Controls.Add(lblHargaMenu);
+            gbInfoMenu.Controls.Add(lblMenuTersedia);
             gbInfoMenu.Location = new Point(27, 551);
             gbInfoMenu.Name = "gbInfoMenu";
             gbInfoMenu.Size = new Size(416, 177);
@@ -264,35 +331,63 @@
             gbInfoMenu.TabStop = false;
             gbInfoMenu.Text = "Informasi Menu";
             // 
-            // label6
+            // label13
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(7, 135);
-            label6.Name = "label6";
-            label6.Size = new Size(163, 20);
-            label6.TabIndex = 9;
-            label6.Text = "Stock Yang Tersedia     :";
-            label6.Click += label6_Click;
+            label13.AutoSize = true;
+            label13.Location = new Point(7, 135);
+            label13.Name = "label13";
+            label13.Size = new Size(163, 20);
+            label13.TabIndex = 12;
+            label13.Text = "Stock Yang Tersedia     :";
+            label13.Click += label13_Click;
             // 
-            // label5
+            // label12
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(7, 90);
-            label5.Name = "label5";
-            label5.Size = new Size(140, 20);
-            label5.TabIndex = 8;
-            label5.Text = "Harga per menu     :";
-            label5.Click += label5_Click;
+            label12.AutoSize = true;
+            label12.Location = new Point(7, 90);
+            label12.Name = "label12";
+            label12.Size = new Size(140, 20);
+            label12.TabIndex = 11;
+            label12.Text = "Harga per menu     :";
             // 
-            // label4
+            // label11
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(7, 45);
-            label4.Name = "label4";
-            label4.Size = new Size(164, 20);
-            label4.TabIndex = 7;
-            label4.Text = "Menu Yang Teresdia     :";
-            label4.Click += label4_Click_1;
+            label11.AutoSize = true;
+            label11.Location = new Point(6, 45);
+            label11.Name = "label11";
+            label11.Size = new Size(164, 20);
+            label11.TabIndex = 10;
+            label11.Text = "Menu Yang Teresdia     :";
+            // 
+            // lblStok
+            // 
+            lblStok.AutoSize = true;
+            lblStok.Location = new Point(176, 135);
+            lblStok.Name = "lblStok";
+            lblStok.Size = new Size(15, 20);
+            lblStok.TabIndex = 9;
+            lblStok.Text = "-";
+            lblStok.Click += label6_Click;
+            // 
+            // lblHargaMenu
+            // 
+            lblHargaMenu.AutoSize = true;
+            lblHargaMenu.Location = new Point(150, 90);
+            lblHargaMenu.Name = "lblHargaMenu";
+            lblHargaMenu.Size = new Size(15, 20);
+            lblHargaMenu.TabIndex = 8;
+            lblHargaMenu.Text = "-";
+            lblHargaMenu.Click += label5_Click;
+            // 
+            // lblMenuTersedia
+            // 
+            lblMenuTersedia.AutoSize = true;
+            lblMenuTersedia.Location = new Point(173, 45);
+            lblMenuTersedia.Name = "lblMenuTersedia";
+            lblMenuTersedia.Size = new Size(15, 20);
+            lblMenuTersedia.TabIndex = 7;
+            lblMenuTersedia.Text = "-";
+            lblMenuTersedia.Click += label4_Click_1;
             // 
             // gbProses
             // 
@@ -338,6 +433,7 @@
             btnBayar.TabIndex = 5;
             btnBayar.Text = "Bayar";
             btnBayar.UseVisualStyleBackColor = false;
+            btnBayar.Click += btnBayar_Click_1;
             // 
             // btnReset
             // 
@@ -348,6 +444,7 @@
             btnReset.TabIndex = 11;
             btnReset.Text = "Reset Pemesanan";
             btnReset.UseVisualStyleBackColor = false;
+            btnReset.Click += btnReset_Click_1;
             // 
             // label8
             // 
@@ -374,7 +471,7 @@
             Controls.Add(lblJudul);
             Name = "Form1";
             Text = "Form1";
-            Load += txtNamaPelanggan_Load;
+            Load += Form1_Load;
             gbInput.ResumeLayout(false);
             gbInput.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numJumlahPesanan).EndInit();
@@ -409,16 +506,24 @@
         private Label lblHargaDetail;
         private Label lblMenuDetail;
         private Label lblStatus;
-        private RichTextBox rtbRiwayat;
         private GroupBox gbInfoMenu;
-        private Label label6;
-        private Label label5;
-        private Label label4;
+        private Label lblStok;
+        private Label lblHargaMenu;
+        private Label lblMenuTersedia;
         private GroupBox gbProses;
         private Button btnBayar;
         private Label label7;
         private Button btnReset;
         private Label label8;
         private Button btnBatalkan;
+        private Label label4;
+        private Label label10;
+        private Label label9;
+        private Label label6;
+        private Label label5;
+        private Label label13;
+        private Label label12;
+        private Label label11;
+        private Label label14;
     }
 }
